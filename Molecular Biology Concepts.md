@@ -241,6 +241,36 @@ Below is a summary of these mutations
 
 ![image](https://user-images.githubusercontent.com/98819046/153392259-24a23790-3cd5-49ad-999a-e2d8d93cb21b.png)
 
+# Open Reading Frames (ORF)
+
+An open reading frame is a portion of a DNA molecule that, when translated into amino acids, contains no stop codons. The genetic code reads DNA sequences in groups of three base pairs, which means that a double-stranded DNA molecule can read in any of six possible reading frames--three in the forward direction and three in the reverse. A long open reading frame is likely part of a gene.
+
+Genes can be identified by searching for long stretches of DNA that could potentially code for protein (ORF)
+
+ORFs will typically have: 
+	
+  start codon + aa codons + stop codon 
+	e.g.:
+	AUG + ACC UAC CAA UAU GCC UUA + UGA
+  
+  # Identification of an ORF
+  
+mRNA is translated in codons (triplets of bases), meaning there are three potential reading frames per strand of DNA sequence. A stretch of DNA has a total of six reading frames that could potentially code for a functional protein.
+
+#### To identify an ORF:
+
+- Locate a start codon (ATG or AUG) in the given sequence
+
+- Read this sequence in base triplets until a stop codon is reached (TGA, TAG , TAA or UGA, UAG, UAA)
+
+- The longer the sequence, the more significant the likelihood that the sequence corresponds to an open reading frame
+
+This can be best illustrated using the following diagram
+
+![image](https://user-images.githubusercontent.com/98819046/153426545-5104ef53-64c4-4a3a-84b6-c5e2b459c286.png)
+
+
+
 
 
 

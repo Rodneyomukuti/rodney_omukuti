@@ -158,7 +158,27 @@ or 'Good morning" in the morning hours, or "Good evening" in the evening hours, 
 Of course there will be at least an if or a case construct in your script.
 ```
 ```
+$ #!/bin/bash 
+echo -n "What's your name? "
+read name 
+hour=`date +%H` #15
+current_time=`date "+%H:%M%Z"`
+current_day=`date "+%B %d"` 
 
+if [[ $hour -lt 12 ]]
+then 
+    period="morning"
+elif [[ $hour -lt 18 ]]
+then 
+    period="day"
+else 
+    period="evening"
+fi 
+
+echo "Good $period $name! It is now $current_time on this lovely day of $current_day."
+
+Output: What's your name? Rodney
+Good day Rodney! It is now 16:45EAT on this lovely day of February 16.
 ```
 
 ### Question 20

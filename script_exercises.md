@@ -157,6 +157,9 @@ Good day Emmanuel! It's not 12:57EAT on this lovely day of July 20. 1:00
 or 'Good morning" in the morning hours, or "Good evening" in the evening hours, depending on the current time.
 Of course there will be at least an if or a case construct in your script.
 ```
+```
+
+```
 
 ### Question 20
 Suppose your current working directory is /home/icipe/Linux/Exercises/. What is the command that will enable to move to /home/icipe/Fun_stuff/?

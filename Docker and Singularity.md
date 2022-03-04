@@ -19,7 +19,7 @@ Create an account in the [Docker website](https://www.google.com/search?q=hub.do
 
 `docker push rodney/my-image`
 
-After that anyone will be able to download it by using the command:
+After that anyone will be able to download it for their own use
 
 # Running nextflow from GitHub
 
